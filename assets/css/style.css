@@ -6,10 +6,6 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.conteiner {
-  position: relative;
-}
-
 .nan {
   width: 2.5em;
 }
@@ -107,4 +103,7 @@ h4 {
   padding-inline: 0.25em;
 }
 
-
+/* Solucion del problema del navbar */
+.fixed-top {
+  position: fixed;
+}
